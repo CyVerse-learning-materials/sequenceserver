@@ -19,7 +19,7 @@ The tutorial demonstartes how to create custom BLAST databases using Create BLAS
 Goal
 ----
     
-Sequenceserver is a modern graphical interface for BLAST designed to increase the productivity of biologist researchers performing and interpreting BLAST searches.
+Sequenceserver <https://sequenceserver.com/>`_ is a modern graphical interface for BLAST designed to increase the productivity of biologist researchers performing and interpreting BLAST searches.
 
 - Smart user interface automagically figures out the appropriate BLAST method for the given query and selected 
   databases.
@@ -51,8 +51,6 @@ Downloads, access, and services
 
 *In order to complete this tutorial you will need access to the following services/software*
 
-..
-	#### comment: delete any row not needed in this table ####
 
 .. list-table::
     :header-rows: 1
@@ -63,12 +61,7 @@ Downloads, access, and services
     * - CyVerse account
       - You will need a CyVerse account to complete this exercise
       - |CyVerse User Portal|
-    * - Atmosphere access
-      - You must have access to Atmosphere
-      - |CyVerse User Portal|
-    * - Cyberduck
-      - Standalone software for upload/download to Data Store
-      - |Download Cyberduck|
+
 
 Platform(s)
 ~~~~~~~~~~~
@@ -96,31 +89,7 @@ Platform(s)
       - |Discovery Environment|
       - |DE Manual|
       - |Discovery Environment Guide|
-    * - Atmosphere
-      - Command line (ssh) and/or Desktop (VNC)
-      - |Atmosphere|
-      - |Atmosphere Manual|
-      - |Atmosphere Guide|
-    * - BisQue
-      - Web/Point-and-click and/or Command-line (API)
-      - |BisQue|
-      - |BisQue Manual|
-      - (See Manual)
-    * - DNA Subway
-      - Web/Point-and-click
-      - |DNA Subway|
-      - (See Guide)
-      - |DNA Subway Guide|
-    * - SciApps
-      - Command-line (API)
-      - |SciApps|
-      - (See Guide)
-      - |SciApps Guide|
-    * - Agave API
-      - Command-line (API)
-      - |Agave API|
-      - |Agave Live Docs|
-      - (See Live Docs)
+
 
 Application(s) used
 ~~~~~~~~~~~~~~~~~~~
@@ -137,28 +106,11 @@ Application(s) used
       - Description
       - App link
       - Notes/other links
-    * - Muscle
-      - 3.8.31
-      - Multiple sequence aligner
+    * - Create BLAST database
+      - 2.6.0
+      - Make BLAST database
       -	|DE Application URL|
       - |Original App Documentation|
-
-
-**Atmosphere Image(s):**
-
-.. list-table::
-    :header-rows: 1
-
-    * - Image name
-      - Version
-      - Description
-      - Link
-      - Notes/other links
-    * - CyVerse CentOS 6.8 GUI Base
-      - 1.0
-      - base image CentOS 6.8 with GNOME GUI
-      - |Atmosphere Image|
-      -
 
 
 
