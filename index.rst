@@ -129,10 +129,10 @@ Input and example data
       - Format
       - Preparation/Notes
       - Example Data
-    * -
-      -
-      -
-      -
+    * - BLAST Database
+      - BLAST Database
+      - A default database is already provided with the app. Browse through the data store to use any custom database for the app.
+      - Reference viroids nucleotide database (iplantcollaborative > example_data > sequenceserver > db)
 
 ----
 
