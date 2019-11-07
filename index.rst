@@ -12,14 +12,14 @@ Uses SequenceServer 2.0
 
 .. raw:: html
 
-   <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/share/aac933be1c2d45b7ba504870915de1d7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+   <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/aac933be1c2d45b7ba504870915de1d7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 The tutorial demonstartes how to create custom BLAST databases using Create BLAST database app in Discovery Enviornment. The output database can be used as an input to the SequenceServer VICE app.
 
 Goal
 ----
     
-Sequenceserver <https://sequenceserver.com/>`_ is a modern graphical interface for BLAST designed to increase the productivity of biologist researchers performing and interpreting BLAST searches.
+`Sequenceserver <https://sequenceserver.com/>`_ is a modern graphical interface for BLAST designed to increase the productivity of biologist researchers performing and interpreting BLAST searches.
 
 - Smart user interface automagically figures out the appropriate BLAST method for the given query and selected 
   databases.
