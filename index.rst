@@ -5,7 +5,7 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**SequenceServer VICE app in DE**
+**SequenceServer VICE application in DE**
 ==================================
 
 Uses SequenceServer 2.0
@@ -14,12 +14,14 @@ Uses SequenceServer 2.0
 
    <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/aac933be1c2d45b7ba504870915de1d7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-The tutorial demonstartes how to create custom BLAST databases using Create BLAST database app in Discovery Enviornment. The output database can be used as an input to the SequenceServer VICE app.
+The tutorial guides you how to use SequenceServer VICE app in discovery enviornment. Custom Blast databases can be created using Create BLAST database app.
 
-Goal
-----
+---------------------
+
+About SequenceServer
+---------------------
     
-`Sequenceserver <https://sequenceserver.com/>`_ is a modern graphical interface for BLAST designed to increase the productivity of biologist researchers performing and interpreting BLAST searches.
+`Sequenceserver <https://sequenceserver.com/>`_ is a modern graphical interface for BLAST designed to increase the productivity of biologist researchers performing and interpreting BLAST searches (Priyam et al., 2015).
 
 - Smart user interface automagically figures out the appropriate BLAST method for the given query and selected 
   databases.
@@ -29,19 +31,38 @@ Goal
 - Download hit sequences in FASTA format, and alignment data in tab-delimited and XML format for further 
   analysis.
 
-----
+---------------------------------------------------
 
-.. toctree::
-	:maxdepth: 2
+*Launch SequenceServer with the default database*
+---------------------------------------------------
 
-	Tutorial home <self>
-	Step One <step1.rst>
-	Delete this example guide page <example_directives_delete.rst>
-..
-	#### Comment:This tutorial can have multiple pages. The table of contents assumes
-	you have an additional page called 'Step One' with content located in 'step1.rst'
-	Edit these titles and filenames as needed ####
+.. Note:: 
 
+.. Comment: Right-Click the below button and open in a new tab for quick launch of SequenceServer analysis with test database
+
+         |sequenceserver|_
+
+1. Login to the |discovery_enviornment|.
+
+2. CLick on "Apps" tab in the Discovery Enviornment and search for "SequenceServer".
+
+3. Click on the app icon.
+
+|sequenceserver_app_icon|_
+
+4. Change the name of the analysis and output folder as needed or leave for defaults.
+
+5. Under "Input" leave the default database or browse through the datastore and change the path to a custom database. Change the number of CPUs as per requirement.
+
+6. Under "Resource Requirements" request resources as needed or leave for defaults 
+
+7. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running. Click on 'Access your analysis here' link.
+
+8. Once the analysis is launched, you will see the SequenceServer user interface. Input your query sequences and click Blast.
+
+|sequenceserver_input|_
+
+-------------
 
 Prerequisites
 -------------
@@ -68,9 +89,6 @@ Platform(s)
 
 *We will use the following CyVerse platform(s):*
 
- ..
-   #### comment: delete any row not needed in this table ####
-
 .. list-table::
     :header-rows: 1
 
@@ -93,8 +111,6 @@ Platform(s)
 
 Application(s) used
 ~~~~~~~~~~~~~~~~~~~
-..
-	#### Comment: these tables are examples, delete whatever is unnecessary ####
 
 **Discovery Environment App(s):**
 
@@ -113,14 +129,10 @@ Application(s) used
       - |Original App Documentation|
 
 
-
 Input and example data
 ~~~~~~~~~~~~~~~~~~~~~~
 
 *In order to complete this tutorial you will need to have the following inputs prepared*
-
-..
-	#### comment: delete any row not needed in this table ####
 
 .. list-table::
     :header-rows: 1
@@ -133,6 +145,16 @@ Input and example data
       - BLAST Database
       - A default database is already provided with the app. Browse through the data store to use any custom database for the app.
       - Reference viroids nucleotide database (iplantcollaborative > example_data > sequenceserver > db)
+
+
+----
+
+**References**
+
+Priyam A, Woodcroft BJ, Rai V, Munagala A, Moghul I, Ter F, Gibbins MA, Moon H, Leonard G, Rumpf W & Wurm Y. 2015. Sequenceserver: a modern graphical user interface for custom BLAST databases. biorxiv doi: 10.1101/033142.
+
+----
+
 
 ----
 
@@ -159,7 +181,7 @@ Search for an answer:
     :height: 100
  .. _CyVerse logo: http://learning.cyverse.org/
 
- .. |Static image| image:: ./img/IMAGENAME.png
+ .. |Static image| image:: ./img/cyverse_cmyk.png
     :width: 25
     :height: 25
 
@@ -186,12 +208,30 @@ Search for an answer:
 
 .. |DE Application URL|  raw:: html
 
-   <a href="https://de.cyverse.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e&system-id=de" target="blank">DE Application URL</a>
+   <a href="https://de.cyverse.org/de/?type=apps&app-id=decdd668-5616-11e7-9724-008cfa5ae621&system-id=de" target="blank">DE Application URL</a>
 
 .. |Original App Documentation|  raw:: html
 
-   <a href="http://www.drive5.com/muscle/manual/" target="blank">Original App Documentation</a>
+   <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=35783313" target="blank">Original App Documentation</a>
 
 .. |Atmosphere Image|  raw:: html
 
    <a href="https://atmo.cyverse.org/application/images/1384" target="blank">Atmosphere Image</a>
+
+.. |sequenceserver| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+
+.. _sequenceserver: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=fb5c8443-0c65-46da-ba1b-dc21938a097c&app-id=ab404686-ff20-11e9-a09c-008cfa5ae621
+
+.. |sequenceserver_app_icon| image:: ./img/seqserver_app.png
+    :width: 300
+    :height: 150
+.. _sequenceserver_app_icon: http://learning.cyverse.org/
+
+.. |sequenceserver_input| image:: ./img/seqserver_input.png
+    :width: 6000
+    :height: 300
+.. _sequenceserver_input: http://learning.cyverse.org/
+
+.. |discovery_enviornment| raw:: html
+
+    <a href="https://de.cyverse.org/de/" target="_blank">Discovery Environment</a>
