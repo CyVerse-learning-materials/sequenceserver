@@ -40,7 +40,7 @@ About SequenceServer
 
 .. Comment: Right-Click the below button and open in a new tab for quick launch of SequenceServer analysis with test database
 
-         |sequenceserver|_
+            |sequenceserver|_
 
 1. Login to the |discovery_enviornment|.
 
@@ -169,6 +169,9 @@ Search for an answer:
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`__
 
+.. |sequenceserver| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _sequenceserver: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=fb5c8443-0c65-46da-ba1b-dc21938a097c&app-id=ab404686-ff20-11e9-a09c-008cfa5ae621
+
 
 .. Comment: Place Images Below This Line
    use :width: to give a desired width for your image
@@ -217,10 +220,6 @@ Search for an answer:
 .. |Atmosphere Image|  raw:: html
 
    <a href="https://atmo.cyverse.org/application/images/1384" target="blank">Atmosphere Image</a>
-
-.. |sequenceserver| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
-
-.. _sequenceserver: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=fb5c8443-0c65-46da-ba1b-dc21938a097c&app-id=ab404686-ff20-11e9-a09c-008cfa5ae621
 
 .. |sequenceserver_app_icon| image:: ./img/seqserver_app.png
     :width: 300
